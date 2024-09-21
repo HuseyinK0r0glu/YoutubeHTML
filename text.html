@@ -1,5 +1,6 @@
 <!-- by saying p we can focus on every pargraph we have and remove duplicate parts-->
-
+<!-- text elements (<u> , <strong> , <span> , <a>)  u underlines text , <strong> is for styling only one part of the text ,
+        <a> is for link to another website , <span> does not have any default styles--> 
 <style>
 
     p {
@@ -33,6 +34,25 @@
         width:280px;
         color:#606060;  
         line-height: 22px;
+        margin-bottom: 100px;
+    }
+
+    .apple-text {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: #e34140;
+        color:white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .shop-link {
+        cursor: pointer;
+    }
+
+    .shop-link:hover {
+        text-decoration: underline;
     }
 
 </style>
@@ -50,4 +70,10 @@
 </p>
 <p class="video-description">
     Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+</p>
+<p class="apple-text">
+    Shop early for the best selection of holiday favourites. 
+    <span class="shop-link">
+        Shop now &gt;
+    </span>
 </p>
