@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- img and input element are a void element-->
+<!-- "object-fit : cover" covers the area and also keeps its shape 
+     "object-position : left or right " if image does not fit the area we
+      choose we can select the part we want to see
+      "object-fit: contain" image is going to shrink until it is contained
+      by the area we choose -->
+
+<html>
+    <head>
+        <title>
+            Youtube.com clone
+        </title>
+
+        <style>
+            .thumbnail {
+                width: 300px;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+
+            .search-bar {
+                font-size: 20px;
+                margin-left: 12px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        <input class="search-bar" type="text" placeholder="Search">
+    </body>
+</html>
