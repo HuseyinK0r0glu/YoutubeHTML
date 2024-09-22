@@ -7,6 +7,10 @@
 /* flex-shrink=0; => does not shrink 
    width=0; => shrink*/
 
+/* pointer-events: none; means if  the hover over the element nothing happens*/
+
+/* white-space: nowrap; is used to prevent text from wrapping onto a new line.It forces to the content to stay on a single line*/
+
 .header {
     height: 55px;
     display: flex;
@@ -34,13 +38,13 @@
 }
 
 .hamburger-menu {
-    height: 24px;
+    height: 25px;
     margin-left: 24px;
     margin-right: 20px;
 }
 
 .youtube-logo {
-    height: 20px;
+    height: 25px;
 }
 
 .middle-section {
@@ -71,6 +75,9 @@
 }
 
 .search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     width: 60px;
     background-color: rgb(240, 240, 240);
@@ -80,23 +87,46 @@
     margin-left: -1px;
     margin-right: 10px;
     border-radius: 2px;
+    position: relative;
 }
 
 .search-button:hover {
     cursor: pointer;
 }
 
+.search-button .tooltip,
+.voice-search-button .tooltip{
+    font-family: Roboto,Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
 .search-icon {
     height: 25px;
-    margin-top: 4px;
 }
 
 .voice-search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     width: 40px;
     border-radius:20px;
     border: none;
     background-color: rgb(244, 246, 247);
+    position: relative;
 }
 
 .voice-search-button:hover {
@@ -104,8 +134,12 @@
 }
 
 .voice-search-icon {
-    height:24px;
-    margin-top: 4px;
+    height:25px;
+}
+
+.search-button:hover .tooltip ,
+.voice-search-button:hover .tooltip{
+    opacity: 1;
 }
 
 .right-section {
@@ -118,15 +152,15 @@
 }
 
 .upload-icon {
-    height: 20px;
+    height: 25px;
 }
 
 .apps-icon {
-    height: 24px;
+    height: 25px;
 }
 
 .notifications-icon {
-    height: 24px;
+    height: 25px;
 }
 
 .notifications-icon-contianer {
