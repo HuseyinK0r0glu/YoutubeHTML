@@ -12,7 +12,8 @@
 <!-- if we have more amounts of divs than the amounts of columns we specified 
      in grid-tmeplate-columns it will increase the row number-->
 
-<!-- number in front of the fr tells us relatively how much of the remaing space-->
+<!-- number in front of the fr tells us relatively how much of the remaing space
+     that number is like a ratio-->
 
 <html>
 
@@ -24,7 +25,9 @@
 
     </head>
 
-    <body>
+    <body style="
+        padding-bottom: 1000px;
+    ">
 
         <div style="
             display: grid;
@@ -81,7 +84,7 @@
 
         <div style="
             display: grid;
-            grid-template-columns: 100px 10fr 1fr;
+            grid-template-columns: 100px 1fr 1fr;
             margin-top: 20px;
         ">
 
@@ -99,6 +102,57 @@
 
         </div>
 
+        <div style="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 20px;
+            column-gap: 20px;
+            row-gap: 40px;
+        ">
+
+        <div style="
+            background-color: lightblue;
+            height: 200px;
+        ">
+            1fr
+        </div>
+
+        <div style="
+            background-color: lightpink;
+            height: 200px;
+        ">
+            1fr
+        </div>
+
+        <div style="
+            background-color: lightblue;
+            height: 200px;
+        ">
+            1fr
+        </div>
+
+        <div style="
+        background-color: lightpink;
+        height: 200px;
+        ">
+            1fr
+        </div>
+
+        <div style="
+        background-color: lightblue;
+        height: 200px;
+        ">
+            1fr
+        </div>
+
+        <div style="
+            background-color: lightpink;
+            height: 200px;
+        ">
+            1fr
+        </div>
+
+        </div>
     </body>
 
 </html>
