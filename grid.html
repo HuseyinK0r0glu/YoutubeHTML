@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!-- inline style attribute lets us to write CSS code inside-->
+<!-- to set a grid we are going to style the outer div-->
+<!-- grid-template-columns: 100px 100px means first column'll have a 
+     width of 100px and second one will have a width of 100px
+     it takes any number of values that we give-->
+
+<!-- grid-template-columns: 100px 1fr; means the first column is going to 
+     have 100px space but the second one will have all the free space left-->
+
+<!-- if we have more amounts of divs than the amounts of columns we specified 
+     in grid-tmeplate-columns it will increase the row number-->
+
+<!-- number in front of the fr tells us relatively how much of the remaing space-->
+
+<html>
+
+    <head>
+
+        <title>
+            Grid Practice
+        </title>
+
+    </head>
+
+    <body>
+
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px;
+        ">
+            <div style="background-color: lightblue;">
+                div 1 
+            </div>
+
+            <div style="background-color: lightpink;">
+                div 2 
+            </div>
+        </div>
+
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 100px;
+        ">
+            <div style="background-color: lightblue;">
+                div 1 
+            </div>
+
+            <div style="background-color: lightpink;">
+                div 2 
+            </div>
+
+            <div style="background-color: lightpink;">
+                div3
+            </div>
+        </div>
+
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+        ">
+            <div style="background-color: lightblue;">
+                div 1 
+            </div>
+
+            <div style="background-color: lightpink;">
+                div 2 
+            </div>
+
+            <div style="background-color: lightpink;">
+                div3
+            </div>
+
+            <div style="background-color: lightpink;">
+                div4
+            </div>
+        </div>
+
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 10fr 1fr;
+            margin-top: 20px;
+        ">
+
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+
+        <div style="background-color: lightpink;">
+            div2
+        </div>
+
+        <div style="background-color: lightblue;">
+            div3
+        </div>
+
+        </div>
+
+    </body>
+
+</html>
