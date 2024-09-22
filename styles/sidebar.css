@@ -1,3 +1,6 @@
+/* we can use CSS selectors with comma it lets us to target multiple classes at the same time*/
+/* .class1 img {...} if we use like that we target the imgs inside elements with class="class1"*/
+
 .sidebar {
     background-color: white;
     position: fixed;
@@ -5,4 +8,29 @@
     left: 0;
     bottom: 0;
     width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div {
+    font-family: Roboto,Amiral;
+    font-size: 10px;
 }
