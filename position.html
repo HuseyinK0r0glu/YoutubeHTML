@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!-- CSS position adds another dimensions to our page-->
+<!-- position: static is default position-->
+<!-- position: fixed sticks to the page while scrolling-->
+<!-- if we want our element to resize with the page we can use top,bottom,left and right,otherwise we can use height and width-->
+<!-- by setting top bottom left and right we can determine where our element is -->
+
+<html>
+
+    <head>
+        <title>
+            CSS Position Practice
+        </title>
+    </head>
+
+
+    <body style="
+        height: 3000px;
+        padding-top: 60px;
+    ">
+        
+        <div style="
+            background-color:black;
+            color: white;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 50px;
+        ">
+            header
+        </div>
+
+        <div style="
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            position: static;
+        "> 
+            div1
+        </div>
+
+
+        <div style="
+            background-color: lightpink;
+            height: 200px;
+            width: 200px;
+        "> 
+            div2
+        </div>
+
+    </body>
+
+</html>
