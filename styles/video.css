@@ -1,8 +1,31 @@
+
+/* Responsive design is a web design approach aimed at creating web pages that adapt to different screen sizes and devices*/
+
+/* @media (max-width: 600px) {...} CSS  inside this @media element will only be activated if screen size is 600 px or less*/ 
+
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width : 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width : 751px) and (max-width : 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width : 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .thumbnail {
