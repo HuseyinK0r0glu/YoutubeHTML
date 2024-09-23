@@ -4,10 +4,7 @@
     background-color: rgb(200,0,0);
     color:white;
     border:none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 10px 16px 10px 16px;
     border-radius:2px;
     cursor:pointer;
     margin-right: 8px;
@@ -30,10 +27,7 @@
     border-width: 1px;
     border-color: blue;
     border-style:solid ;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 9px 15px;
     border-radius:2px;
     cursor:pointer;
     transition: background-color 0.15s,
@@ -54,10 +48,7 @@
     background-color: rgb(2, 137, 255);
     color:white;
     border:none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 7px 16px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
