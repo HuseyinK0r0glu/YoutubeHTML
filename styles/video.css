@@ -1,5 +1,5 @@
 
-/* Responsive design is a web design approach aimed at creating web pages that adapt to different screen sizes and devices*/
+/* Responsive design is a web design approach aimed at creating web pages that adopt to different screen sizes and devices*/
 
 /* @media (max-width: 600px) {...} CSS  inside this @media element will only be activated if screen size is 600 px or less*/ 
 
@@ -37,13 +37,13 @@
     }
 }
 
-.thumbnail {
-    width: 100%;
-}
-
 .thumbnail-row {
     margin-bottom: 8px;
     position: relative;
+}
+
+.thumbnail {
+    width: 100%;
 }
 
 .video-time {
