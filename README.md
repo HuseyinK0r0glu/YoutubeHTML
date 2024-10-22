@@ -1,30 +1,37 @@
-YoutubeHTML
-Project Overview
-The YoutubeHTML project aims to build a simple HTML webpage that mimics or utilizes key elements from YouTube. It may involve embedding YouTube videos, designing a YouTube-style interface, or replicating aspects of YouTube’s layout using HTML and CSS.
+# YoutubeHTML
 
-Features
-Embed YouTube videos directly on the page
-Clean and responsive design
-Basic YouTube-like layout with video player functionality
-Interactive buttons, including play, pause, etc.
-Responsive design for different screen sizes
-Technologies Used
-HTML5: For the structure of the page.
-CSS3: For styling and making the webpage visually appealing.
-JavaScript: (Optional) Could be used to handle video controls and enhance interactivity.
-Bootstrap (Optional): For responsiveness and layout improvements.
-Getting Started
-Prerequisites
-To view and edit this project, you’ll need:
+## Project Overview
+This project is a simple HTML webpage that mimics key elements from YouTube. It focuses on embedding YouTube videos and replicating the platform's layout using basic HTML and CSS.
 
-A text editor (VS Code, Sublime Text, etc.)
-A web browser (Chrome, Firefox, etc.)
+## Features
+- *YouTube Video Embedding*: Allows embedding of YouTube videos directly onto the webpage.
+- *Responsive Design*: Ensures the layout adjusts for different screen sizes.
+- *Basic Layout*: Replicates a YouTube-style layout with video player functionality.
+- *Interactive Elements*: Includes basic buttons such as play, pause, etc.
 
-Usage
-Open the index.html file to see the embedded YouTube videos.
-The page should load and play the videos in a YouTube-like layout.
-Ensure internet access to fetch YouTube video links.
-Project Structure
-index.html: The main HTML file with the page structure and embedded video.
-style.css: (Optional) CSS file to style the page, control the layout, and make it responsive.
-scripts.js: (Optional) JavaScript file to handle video interaction if present.
+## Technologies Used
+- *HTML5*: For structuring the page.
+- *CSS3*: For styling and layout.
+- *JavaScript (Optional)*: Can be used for enhanced interactivity, such as handling video controls.
+- *Bootstrap (Optional)*: For a more responsive layout.
+
+## Getting Started
+
+### Prerequisites
+- A text editor (e.g., VS Code, Sublime Text)
+- A web browser (e.g., Chrome, Firefox)
+
+### Usage
+1. Open the index.html file to view the embedded YouTube videos.
+2. Ensure you have internet access to load the video content.
+3. The page should load with a YouTube-like interface for video playback.
+
+## Project Structure
+- index.html: Main HTML file with the structure of the webpage and embedded video content.
+- style.css: (Optional) CSS file for styling the page and making it responsive.
+- scripts.js: (Optional) JavaScript file to enhance video interactions.
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HuseyinK0r0glu/YoutubeHTML.git 
